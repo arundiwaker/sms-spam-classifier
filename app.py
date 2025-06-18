@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import nltk
 from nltk.corpus import stopwords
+nltk.download('punk')  # Required for tokenization
+nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
 import string
 
